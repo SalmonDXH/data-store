@@ -1,0 +1,8 @@
+The second version of every detect image, for the other Roblox UI font.
+
+Same file names and same sub-folders as ../main - a crop belongs here under the
+path it has there. Zone and confidence are not repeated: they live on the image
+DB entry and are shared by both versions.
+
+F2 tries main first and falls back to this; if neither version matches, the
+macro warns and stops rather than running blind.
